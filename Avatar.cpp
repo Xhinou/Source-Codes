@@ -1,5 +1,3 @@
-// Steinbach, Aymeric - 1DAE08
-
 #include "stdafx.h"
 #include "Game.h"
 #include "Engine.h"
@@ -177,26 +175,6 @@ void Avatar::Move()
 		m_Velocity.x = 0;
 		m_StateManager.SetState(std::bind(&Avatar::Wait, this));
 	}
-}
-
-void Avatar::Crouch()
-{
-
-}
-
-void Avatar::Slide()
-{
-
-}
-
-void Avatar::Dash()
-{
-
-}
-
-void Avatar::Stomp()
-{
-	//jump disabled
 }
 
 void Avatar::Pushed()
